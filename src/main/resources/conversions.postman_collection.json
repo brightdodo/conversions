@@ -1,0 +1,113 @@
+{
+  "info": {
+    "_postman_id": "14e63e8a-0f66-42c7-bd67-1c38a04da082",
+    "name": "conversions",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Kelvin to Celsius",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/conversions/ktoc?kelvin=12",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "conversions",
+            "ktoc"
+          ],
+          "query": [
+            {
+              "key": "kelvin",
+              "value": "12"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Celsius to kelvin",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/conversions/ctok?celsius=50",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "conversions",
+            "ctok"
+          ],
+          "query": [
+            {
+              "key": "celsius",
+              "value": "50"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Kilometer to mile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/conversions/ktom?kilometer=7.2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "conversions",
+            "ktom"
+          ],
+          "query": [
+            {
+              "key": "kilometer",
+              "value": "7.2"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Miles to kilometers",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/conversions/mtok?mile=20.0",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "conversions",
+            "mtok"
+          ],
+          "query": [
+            {
+              "key": "mile",
+              "value": "20.0"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
